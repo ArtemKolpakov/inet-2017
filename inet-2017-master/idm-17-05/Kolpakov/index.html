@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>output</title>
+  <style>
+	.hide{
+		display:none;
+	}
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"> </script>
+ </head>
+ <body>
+    <h3> Колпаков А.О. [ИДМ-17-05] </h3>
+	<div id="toggle" class="hide"> Персональная страница </div> 
+	<button onclick="shadow_div('toggle')"> text </button>
+	<script>
+		function shadow_div(id){
+			$("#"+id).show()
+		}
+	</script>
+ </body>
+</html>
